@@ -23,3 +23,11 @@ quser /serve:[servername]
 get-wmiobject -Class Win32_Computersystem | select Username
 ```
 </details>
+
+
+<details>
+  <summary>Powershell version</summary>
+```
+get-wmiobject -Class Win32_Computersystem | select Username
+```
+</details>
